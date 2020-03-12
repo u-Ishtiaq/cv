@@ -9,7 +9,7 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top)
-        }, 10, "easeInOutExpo");
+        }, 0, "easeInOutExpo");
         return false;
       }
     } 
